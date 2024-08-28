@@ -1,0 +1,40 @@
+1) Explique as diferenças entre 3 linguagens de programação:
+
+Python
+Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e legibilidade. Foi projetada com o objetivo de ser fácil de aprender e usar, o que a torna popular entre iniciantes e desenvolvedores experientes. Python é uma linguagem interpretada, o que significa que o código é executado diretamente, linha por linha, sem a necessidade de compilação prévia.
+Python é amplamente utilizado em áreas como desenvolvimento web, análise de dados, aprendizado de máquina e automação. Possui uma vasta biblioteca padrão e uma grande comunidade, o que facilita a integração com outras ferramentas e tecnologias. No entanto, Python pode ser mais lento em termos de desempenho em comparação com linguagens compiladas, devido à sua natureza interpretada.
+
+Java
+Java é uma linguagem de programação de alto nível, orientada a objetos, e projetada para ser portátil e executada em diferentes plataformas sem modificações. Isso é possível graças à sua abordagem "write once, run anywhere" (escreva uma vez, execute em qualquer lugar), que usa a Java Virtual Machine (JVM) para interpretar o bytecode gerado pela compilação do código Java.
+Java é amplamente utilizada no desenvolvimento de aplicações empresariais, sistemas de backend e aplicativos Android. Oferece um bom equilíbrio entre desempenho e portabilidade, além de uma robusta biblioteca padrão e suporte para multi-threading, que permite executar múltiplas tarefas simultaneamente. A sintaxe de Java é mais rígida em comparação com Python, o que pode torná-la mais complexa para iniciantes, mas oferece maior controle sobre o gerenciamento de memória e a performance do aplicativo.
+
+C++
+C++ é uma linguagem de programação de alto nível que também possui características de baixo nível, permitindo um controle detalhado sobre a memória e os recursos do sistema. É conhecida por sua eficiência e desempenho, sendo amplamente utilizada em desenvolvimento de sistemas, jogos, software em tempo real e aplicações de alto desempenho.
+C++ é uma linguagem compilada, o que significa que o código fonte é convertido diretamente em código de máquina antes da execução, resultando em um desempenho mais rápido. No entanto, isso também implica em uma sintaxe mais complexa e em um gerenciamento manual de memória, o que pode aumentar a complexidade do desenvolvimento. Embora C++ ofereça um controle mais refinado sobre o hardware, isso pode tornar o processo de desenvolvimento mais propenso a erros, como vazamentos de memória e problemas de desempenho.
+
+Resumo das Diferenças
+- **Python** é fácil de aprender e usar, ideal para desenvolvimento rápido e tarefas como análise de dados e aprendizado de máquina, mas pode ser mais lento em termos de desempenho.
+- **Java** é portátil e ideal para aplicações empresariais e Android, oferecendo um bom equilíbrio entre desempenho e portabilidade, com uma sintaxe orientada a objetos.
+- **C++** oferece controle detalhado sobre recursos do sistema e é altamente eficiente para aplicações de alto desempenho, mas tem uma sintaxe mais complexa e exige um gerenciamento manual de memória.
+
+
+a)  Tente fazer um código mínimo em cada uma delas:
+Python é conhecido por sua sintaxe simples e direta.  "Hello, World!" em Python:
+print("Hello, World!")
+
+Java requer uma estrutura mais formal com uma classe e um método principal. "Hello, World!" em Java:
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+C++ também requer uma estrutura básica com uma função main para começar a execução do programa. "Hello, World!" em C+:
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+
