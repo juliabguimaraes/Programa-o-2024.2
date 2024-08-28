@@ -9,8 +9,6 @@ Por outro lado, os formatos abertos são definidos por especificações publicam
 Em resumo, a escolha entre formatos proprietários e abertos pode afetar a flexibilidade e a longevidade dos dados. Enquanto os formatos proprietários podem fornecer funcionalidades específicas e uma integração profunda com software particular, os formatos abertos favorecem a interoperabilidade e acessibilidade, facilitando a migração de dados e a integração com diversas plataformas. A decisão sobre qual formato adotar deve considerar aspectos como compatibilidade, requisitos de software e a importância da preservação e acessibilidade dos dados a longo prazo.
 
 b.1) Exemplos de formatos:
-Claro! Aqui estão exemplos de formatos de arquivos, divididos em proprietários e abertos:
-
 Formatos Proprietários
 1. **.docx**: Utilizado pelo Microsoft Word para documentos de texto com formatação avançada.
 2. **.xlsx**: Formato do Microsoft Excel para planilhas e dados tabulares.
