@@ -1,0 +1,28 @@
+O algoritmo de ordenação Bubble Sort é um dos métodos mais simples para ordenar uma lista. Ele funciona percorrendo a lista repetidamente, comparando pares de elementos adjacentes e trocando-os se estiverem na ordem errada. Esse processo é repetido até que a lista esteja ordenada.
+
+Aqui está uma implementação básica do Bubble Sort em Python:
+Explicação
+Loop Externo: O loop externo percorre todos os elementos da lista. A cada iteração, o maior elemento da parte não ordenada da lista "borbulha" para o final da lista.
+
+Loop Interno: O loop interno compara elementos adjacentes e os troca se estiverem na ordem errada. Ele diminui a quantidade de elementos a serem verificados a cada iteração, pois os maiores elementos já estão na sua posição final.
+
+Flag swapped: Usada para verificar se houve alguma troca durante a passagem. Se nenhuma troca ocorrer, significa que a lista já está ordenada e o algoritmo pode ser encerrado antecipadamente.
+
+O algoritmo Bubble Sort tem uma complexidade de tempo O(n²) no pior caso, o que o torna ineficiente para listas grandes em comparação com algoritmos mais avançados como Quick Sort ou Merge Sort.
+
+Você pode criar um algoritmo simples para imprimir apenas as vogais de uma palavra ou frase em Python. Vamos implementar isso em alguns passos:
+
+Definir a palavra ou frase: Você armazenará a entrada em uma variável.
+Iterar sobre cada caractere: Verificar se o caractere é uma vogal.
+Imprimir as vogais: Acumular e exibir as vogais encontradas.
+
+Explicação
+Definição das Vogais: A string vogais contém todas as vogais minúsculas e maiúsculas.
+
+Acumulação das Vogais: A variável resultado é usada para armazenar as vogais encontradas no texto.
+
+Iteração e Verificação: O loop for percorre cada caractere do texto, e o if verifica se o caractere é uma vogal. Se for, ele é adicionado à variável resultado.
+
+Impressão: Após a iteração, as vogais encontradas são impressas.
+
+Este código é útil para processar qualquer string e extrair suas vogais de forma eficiente.
